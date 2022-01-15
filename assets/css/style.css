@@ -1,0 +1,244 @@
+/* merriweather-regular - latin */
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/merriweather-v28-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/merriweather-v28-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* merriweather-700 - latin */
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/merriweather-v28-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/merriweather-v28-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+ 
+ html{
+      box-sizing: border-box;
+  }
+  *, *::before, *::after{
+      box-sizing: inherit;
+  } 
+
+  .body {
+    width: 1440px;
+    height: 100%;
+    background-color: black;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+   }
+   .hero{
+    background-image: url(../jpg/bg.jpg);
+    background-color: black;
+    width: 1440px;
+    height: 910px;
+    margin-left: 0px;
+    margin-top: 0px;
+   }
+   .header{
+    width: 1440px;
+    height: 90px; 
+    display: flex;
+    flex-direction: row;
+   }
+   .logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+   .nav{
+    height: 50px;
+    margin-left: 59.03%;
+    margin-right: 6.25%;
+    margin-top: 20px;
+   }
+   .ul{
+     display: flex;
+     flex-direction: row;
+     height: 50px;
+     margin-left: 0px;
+     margin-right: 5.25%;
+     margin-top: 0px;
+     line-height: 50px;
+     font-size: 20px;
+     
+   }
+   .skills_link{
+    color: white;
+    height: 50px;
+    margin-left: 6%;
+    margin-right: 84.2%;
+    margin-top: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    padding-right: 30px;
+   }
+  .portfolio_link{
+    color: white;
+    height: 50px;
+    margin-left: 21.8%;
+    margin-right: 62%;
+    margin-top: 0px;
+    font-family: Inter; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    padding-right: 30px;
+  }
+  .video_link{
+    color: white;
+    height: 50px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;    
+    padding-left: 30px;
+  }
+  .price_link{
+    color: white;
+    height: 50px;
+    margin-left: 61%;
+    margin-right: 29.4%;
+    margin-top: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .contacts_link{
+    color: white;
+    height: 50px;
+    margin-left: 76.6%;
+    margin-right: 6.2%;
+    margin-top: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .switch_lng{
+    height: 50px;
+    margin-left: 0;
+    margin-right: 1.39%;
+    margin-top: 35px;
+    font-size: 20px;
+  }
+  .hero_alexa{
+    color: white;
+    height: 330px;
+    margin-left: 5.56%;
+    margin-right: 59.72%;
+    margin-top: 250px; 
+    font-family: Merriweather;
+    font-size: 60px;  
+    line-height: 80px;
+  }
+  .hero_alexa1{
+    color: white;
+    font-family: inter;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .skils{
+    width: 1440px;
+    height: 482px;
+    margin-left: 0px;
+    margin-top: 910px;
+  }
+  .section-title{
+    height: 80px;
+    margin-left: 25.69%;
+    margin-right: 25.69%;
+    margin-top: 100px;
+  }
+  .skills-items{
+    width: 1440px;
+    height: 482px;
+    margin-left: 0px;
+    margin-top: 200px;
+  }
+  .section-title-portfolio{
+    height: 80px;
+    margin-left: 25.69%;
+    margin-right: 25.69%;
+    margin-top: 100px;
+  }
+  .btns{
+    width: 895px;
+    height: 55px;
+    margin-left: 272px;
+    margin-top: 240px;
+  }
+  .btns-winter{
+    width: 220px;
+    height: 55px;
+    margin-left: calc(50% - 220px/2 - 338px);
+    margin-top: calc(50% - 55px/2 - 482.5px);
+    color: #BDAE82;
+    background-color: #000000;
+    border-color: #BDAE82;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+  }
+  .btns-spring{
+    width: 220px;
+    height: 55px;
+    margin-left: calc(50% - 220px/2 - 338px);
+    margin-top: calc(50% - 55px/2 - 482.5px);
+    color: #BDAE82;
+    background-color: #000000;
+    border-color: #BDAE82;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+  }
+  .btns-summer{
+    width: 220px;
+    height: 55px;
+    margin-left: calc(50% - 220px/2 - 338px);
+    margin-top: calc(50% - 55px/2 - 482.5px);
+    color: #BDAE82;
+    background-color: #000000;
+    border-color: #BDAE82;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+  }
+  .btns-autumn{
+    width: 220px;
+    height: 55px;
+    margin-left: calc(50% - 220px/2 - 338px);
+    margin-top: calc(50% - 55px/2 - 482.5px);
+    color: #BDAE82;
+    background-color: #000000;
+    border-color: #BDAE82;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+  }
